@@ -1,12 +1,12 @@
 <body>
-<div class="genre">
+<!-- <div class="genre">
   <p>
     Choose your genre:
-  </p>
+  </p> -->
 
 </div>
 
-<div class="video"><%= video_tag "anime.mp4", autoplay:true, height: "100%", width: "100%" %>
+<div class="video"><%= video_tag "anime.mp4", autoplay:true, height: "100%", width: "100%", controls: false %>
 </div>
 <div class="search"><%= button_to "Random", search_path  %>
 </div>
