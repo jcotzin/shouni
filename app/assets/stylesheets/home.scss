@@ -1,0 +1,26 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.genre {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  margin-top: 25%;
+}
+.search {
+  text-align: center;
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  margin-top: 25%;
+
+}
+.video {
+  z-index: -99;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-color: black;
+}
