@@ -1,0 +1,41 @@
+
+
+.butt {
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	width:180px;
+	height:55px;
+	border: 6px solid #141414;
+	color: #141414;
+	font-weight: 800;
+	font-size: 18px;
+	text-align:center;
+	cursor: pointer;
+	background-color: transparent;
+	background-image: linear-gradient(left, rgba(111,167,195,.7) 60%, transparent 100%);
+	background-position: 100% 0;
+	background-size: 200% 200%;
+	color: #141414;
+
+}
+
+video {
+	position: fixed;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	transform: translateX(-50%);
+
+}
+.video {
+	opacity: 0.6;
+}
+body {
+	background-color: white;
+	margin: 0;
+}

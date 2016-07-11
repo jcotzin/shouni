@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'flutie'
 gem 'httparty'
 gem 'hummingbird'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

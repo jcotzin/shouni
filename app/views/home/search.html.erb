@@ -1,0 +1,27 @@
+<head>
+<%= stylesheet_link_tag "search.css" %>
+</head>
+
+
+  <div class="back">
+    <%= button_to "BACK", search_path, class: "btn"  %>
+    <%= button_to "TRY AGAIN", search_path, class:"btn"  %>
+  </div>
+  <div class="title">
+    <h2><%= @canonical %></h2><br>
+    <%= @english %><br>
+  </div>
+  <div class="synopsis">
+    <%= @synopsis %>
+  </div><br>
+  <div class="pic">
+    <video src= "https://www.youtube.com/watch?v=<%@vid%>"></video>
+    <%= image_tag @thumb, size: "210x270" %>
+  </div>
+</div>
+
+
+
+<!-- <div class="gif">
+<%= image_tag "FallingPetals.gif", class:"gif" %>
+</div> -->
