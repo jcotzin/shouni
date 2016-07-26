@@ -1,24 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Shouni is an anime app generator. The user selects a genre (which is represented in the form of an icon) and they are directed to a random anime of that genre. It takes the user to a page with the anime trailer. We are currently working on adding a sidebar and description pop-up.
 
-Things you may want to cover:
+This was our Friends and Family project.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
